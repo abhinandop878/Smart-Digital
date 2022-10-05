@@ -41,7 +41,61 @@
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit" style="color: white;">Search</button>
-              <button class="btn btn-outline-primary" type="submit">Login</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark">
+                      <img height="50px" src="../logo.png" alt="">
+                      <a class="navbar-brand" href="#"><strong><span style="color: orange;">Smart</span><span style="color: white;">-</span><span style="color: lightskyblue">Digital</span></strong></a>
+                      <h1 style="color: lightgreen;">Sign <span style="color: orange;">IN</span>/<span style="color: lightblue;">UP</span></h1>  
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row g-3">
+                        <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <h1 style="text-align: center;"><span style="color: lightgreen;">Sign-</span><span style="color: orange;">IN</span></h1>
+                          <label for="" class="form-label">Username:</label>
+                          <input placeholder="Enter your username" type="text" class="form-control">
+                          <label for="" class="form-label">Password:</label>
+                          <input placeholder="Enter your password"type="password" name="" id="" class="form-control">
+                          <br>
+                          <a href="#">Forgot Password?</a>&nbsp;&nbsp;
+                          <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-success" type="button" onclick="location.href='../carts/p5cart.html'">Login</button>
+                          </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <h1 style="text-align: center;"><span style="color: lightgreen;">Sign-</span><span style="color: lightblue;">UP</span></h1>
+                          <label for="" class="form-label">Name:</label>
+                          <input placeholder="Enter your Name" type="text" class="form-control">
+                          <label for="" class="form-label">Mobile number:</label>
+                          <input placeholder="Enter your Mobile number" type="tel" class="form-control">
+                          <label for="" class="form-label">Email:</label>
+                          <input placeholder="Enter your Email" type="email" name="" id="" class="form-control">
+                          <label for="" class="form-label">Username:</label>
+                          <input placeholder="Enter a Username" type="text" class="form-control">
+                          <label for="" class="form-label">Password:</label>
+                          <input placeholder="Enter a password"type="password" name="" id="" class="form-control">
+                          <label for="" class="form-label">Confirm Password:</label>
+                          <input placeholder="Enter password again"type="password" name="" id="" class="form-control">
+                          <br>
+                          <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-primary" type="button"onclick="location.href='../carts/p5cart.html'">Register</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      By continuing, you agree to Smart-Digital's<a href="#"> Terms of Use and Privacy Policy.</a>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
         </div>
