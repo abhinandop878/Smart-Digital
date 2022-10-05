@@ -22,7 +22,7 @@
                 <a class="nav-link active" aria-current="page" href="index.html"style="color: lightgreen;">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"style="color: white;">My Orders</a>
+                <a class="nav-link" href="myorder/order.html"style="color: white;">My Orders</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="cartitems/cartitems.html"style="color: white;">My Cart</a>
@@ -42,7 +42,34 @@
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit" style="color: white;">Search</button>
-              <button class="btn btn-outline-primary" type="submit">Login</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark">
+                      <img height="50px" src="logo.png" alt="">
+                      <a class="navbar-brand" href="#"><strong><span style="color: orange;">Smart</span><span style="color: white;">-</span><span style="color: lightskyblue">Digital</span></strong></a>
+                      <h1 style="color: lightgreen;">Login</h1>  
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
+                    </div>
+                    <div class="modal-body">
+                      <label for="" class="form-label">Username:</label>
+                      <input placeholder="Enter your username" type="text" class="form-control">
+                      <label for="" class="form-label">Password:</label>
+                      <input placeholder="Enter your password"type="password" name="" id="" class="form-control">
+                      <br>
+                      <a href="#">Forgot Password?</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">New User?</button>
+                      <button type="button" class="btn btn-success" onclick="location.href='index.html'">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
         </div>
