@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart-Digital</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <img height="50px" src="../logo.png" alt="">
+          <a class="navbar-brand" href="#"><strong><span style="color: orange;">Smart</span><span style="color: white;">-</span><span style="color: lightskyblue">Digital</span></strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html"style="color: white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../myorder/order.html"style="color: white;">My Orders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../cartitems/cartitems.html"style="color: white;">My Cart</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color: white;">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Notification Preferences</a></li>
+                  <li><a class="dropdown-item" href="#"> 24x7 Customer Care Support</a></li>
+                  <li><a class="dropdown-item" href="#">Advertise</a></li>
+                  <li><a class="dropdown-item" href="#">Download App</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" style="color: white;">Search</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark">
+                      <img height="50px" src="../logo.png" alt="">
+                      <a class="navbar-brand" href="#"><strong><span style="color: orange;">Smart</span><span style="color: white;">-</span><span style="color: lightskyblue">Digital</span></strong></a>
+                      <h1 style="color: lightgreen;">Sign <span style="color: orange;">IN</span>/<span style="color: lightblue;">UP</span></h1>  
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row g-3">
+                        <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <h1 style="text-align: center;"><span style="color: lightgreen;">Sign-</span><span style="color: orange;">IN</span></h1>
+                          <label for="" class="form-label">Username:</label>
+                          <input placeholder="Enter your username" type="text" class="form-control">
+                          <label for="" class="form-label">Password:</label>
+                          <input placeholder="Enter your password"type="password" name="" id="" class="form-control">
+                          <br>
+                          <a href="#">Forgot Password?</a>&nbsp;&nbsp;
+                          <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-success" type="button" onclick="location.href='../buy/buy.html'">Login</button>
+                          </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                          <h1 style="text-align: center;"><span style="color: lightgreen;">Sign-</span><span style="color: lightblue;">UP</span></h1>
+                          <label for="" class="form-label">Name:</label>
+                          <input placeholder="Enter your Name" type="text" class="form-control">
+                          <label for="" class="form-label">Mobile number:</label>
+                          <input placeholder="Enter your Mobile number" type="tel" class="form-control">
+                          <label for="" class="form-label">Email:</label>
+                          <input placeholder="Enter your Email" type="email" name="" id="" class="form-control">
+                          <label for="" class="form-label">Username:</label>
+                          <input placeholder="Enter a Username" type="text" class="form-control">
+                          <label for="" class="form-label">Password:</label>
+                          <input placeholder="Enter a password"type="password" name="" id="" class="form-control">
+                          <label for="" class="form-label">Confirm Password:</label>
+                          <input placeholder="Enter password again"type="password" name="" id="" class="form-control">
+                          <br>
+                          <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-primary" type="button"onclick="location.href='../buy/buy.html'">Register</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      By continuing, you agree to Smart-Digital's<a href="#"> Terms of Use and Privacy Policy.</a>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 col-xxl-8">
+                <div class="row g-3">
+                    <h1 style="text-align: center; color: orange;">Delivery Address</h1>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <lable class="form-label">Name:</lable>
+                        <input placeholder="Enter your name" type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <lable class="form-label">Mobile number:</lable>
+                        <input placeholder="Enter your Mobile number"type="tel" name="" id=""class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <lable class="form-label">Pincode:</lable>
+                        <input placeholder="Enter your Pincode" type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <lable class="form-label">Locality:</lable>
+                        <input placeholder="Enter your Locality" type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <lable class="form-label">Address:</lable>
+                        <textarea placeholder="Enter your Address" name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <lable class="form-label">City/District/Town:</lable>
+                        <input placeholder="Enter your City/District/Town" type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <lable class="form-label">State:</lable>
+                        <input placeholder="Enter your State" type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <lable class="form-label">Landmark(Optional):</lable>
+                        <input placeholder="Enter your Landmark" type="text" name="" id="" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <lable class="form-label">Alternate Phone(Optional):</lable>
+                        <input placeholder="Enter your Alternate number"type="tel" name="" id=""class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <input type="radio" name="" id="">
+                        <lable class="form-label">Home (All day delivery)</lable>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                       <input type="radio" name="" id="">
+                       <lable class="form-label">Work (Delivery between 10 AM-5 PM)</lable>
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <br>
+                            <button class="btn" type="button" style="background-color:rgb(251,100,27); color: white;"data-bs-toggle="modal" data-bs-target="#exampleModal1">Deliver Here</button>
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header"style="background-color: rgb(13,110,253);">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Payment Option</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <table class="table">
+                                      <tr>
+                                        <td><lable class="form-label">Smart-Digital Pay Latter</lable></td>
+                                        <td><input type="radio" name="" id=""></td>
+                                      </tr>
+                                      <tr>
+                                        <td><lable class="form-label">Phonepe (UPI,wallet)</lable></td>
+                                        <td><input type="radio" name="" id=""></td>
+                                      </tr>
+                                      <tr>
+                                        <td><lable class="form-label">Credit/Debit/ATM card</lable></td>
+                                        <td><input type="radio" name="" id=""></td>
+                                      </tr>
+                                      <tr>
+                                        <td><lable class="form-label">Net Banking</lable></td>
+                                        <td><input type="radio" name="" id=""></td>
+                                      </tr>
+                                      <tr>
+                                        <td><lable class="form-label">Cash on Delivery</lable></td>
+                                        <td><input type="radio" name="" id=""></td>
+                                      </tr>
+                                      <tr>
+                                        <td><lable class="form-label">EMI (Easy Installments)</lable></td>
+                                        <td><input type="radio" name="" id=""></td>
+                                      </tr>
+                                    </table>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success" onclick="location.href='../myorder/order.html'">Place Order</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+              <h1 style="text-align: center; color: blue">Payments</h1>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header"  id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Smart-Digital Pay Latter
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="text-align: justify;">Shopping is fun, and everyone loves it. But, getting your credit or debit card details or typing in an OTP every time you make a purchase might get tiring. Smart-Digital Pay Later now introduces the Shop Now Pay Later experience using which you can select the products you want, check out, and receive the products without having to scramble for payment details or OTPs. You can just pay for all your products whenever it’s convenient for you in one go. You also get a single bill for all your purchases, making it easy for you to track your expenses. So what if you’re way past your budget for the month. Now, you can get the products you need at your convenience after you’ve experienced them.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Phonepe (UPI,wallet)
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="text-align: justify;">Login to Smart-Digital.com (Mobile App/Mobile Site/Website)
+                      Add the required products to your cart
+                      Proceed to checkout
+                      Select UPI payment option
+                      Offer discount applied automatically (You will have the discount summary)
+                      Complete your transaction using your any of your favorite UPI applicationsOffer is applicable on all products except Flight, bus, Gold coins, Grocery, Supermarket Refurbished, and any product which should not be incentivized as per Government regulation.
+                      What are the other conditions to avail the Offer?
+                      Offer is applicable on the first UPI payment transaction.
+                      Offer can be availed only once during the Offer Period.
+                      Once you add all required items to your cart & proceed to check out by selecting UPI payment Instrument, your order summary will be updated automatically with a discounted amount.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Credit/Debit/ATM card
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="text-align: justify;">We accept payments made by credit/debit cards issued in India and 21 other countries.<br><strong>Credit card: </strong>We accept payments made using Visa, MasterCard and American Express credit cards.<br><strong>Debit card: </strong>We accept payments made using Visa, MasterCard and Maestro debit cards.<br>Internationally issued credit/debit cards cannot be used for Flyte, Wallet and eGV payments/top-ups.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      Net Banking
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="text-align: justify;">NetBanking is a payment method that you can use to make manual payments using a bank transfer. This kind of payment is supported by our processors. Requirements and security: You can use NetBanking to make a manual payment if-You have a billing address and bank account in India, Your purchase currency is Indian Rupee (INR), Your bank is supported by our processors.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      Cash on Delivery
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="text-align: justify;">If you are not comfortable making an online payment on Smart-Digital.com, you can opt for the Cash on Delivery (C-o-D) payment method instead. With C-o-D you can pay in cash at the time of actual delivery of the product at your doorstep, without requiring you to make any advance payment online.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      EMI (Easy Installments)
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="text-align: justify;">There is NO processing fee charged for availing Smart-Digital's EMI payment option. On return or exchange, interest charged by the bank till that time will not be refunded by Smart-Digital.
+                      You may check with the respective bank/issuer on how a cancellation, refund or pre-closure could affect the EMI terms, and what interest charges would be levied on you for the same.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="background-color: rgb(33,37,41);">
+      <br>
+      <div class="container">
+          <div class="row" style="background-color:rgb(33,37,41); color: white;">
+              <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                 <h6 style="color: lightblue;">ABOUT</h6>
+                 <ul style="list-style-type: none;">
+                  <li><a href="#" style="text-decoration: none;color: inherit;">Contact Us</a></li>
+                  <li><a href="#" style="text-decoration: none;color: inherit;">About Us</a></li>
+                  <li><a href="#" style="text-decoration: none;color: inherit;">Careers</a></li>
+                  <li><a href="#" style="text-decoration: none;color: inherit;">Smart-Digital Stories</a></li>
+                  <li><a href="#" style="text-decoration: none;color: inherit;">Press</a></li>
+                  <li><a href="#" style="text-decoration: none;color: inherit;">Smart-Digital Wholesale</a></li>
+                  <li><a href="#" style="text-decoration: none;color: inherit;">Corporate Information</a></li>
+                 </ul>
+              </div>
+              <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                  <h6 style="color: lightblue;">HELP</h6>
+                  <ul style="list-style-type: none;">
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Payments</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Shipping</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Careers</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Cancellation & Returns</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">FAQ</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Report Infringement</a></li>
+                  </ul>
+               </div>
+               <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                  <h6 style="color: lightblue;">POLICY</h6>
+                  <ul style="list-style-type: none;">
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Return Policy</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Terms Of Use</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Security</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">Privacy</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">FAQ</a></li>
+                   <li><a href="#" style="text-decoration: none;color: inherit;">EPR Compliance</a></li>
+                  </ul>
+               </div>
+               <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                  <h6 style="color: lightblue;">Mail Us:</h6>
+                  <p>Flipkart Internet Private Limited, Buildings Alyssa, Begonia & Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India
+                  </p>
+               </div>
+          </div>
+      </div>
+  </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+</body>
+</html>
